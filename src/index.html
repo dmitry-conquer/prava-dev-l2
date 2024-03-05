@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="uk">
+  @@include('components/head.html', { 'title': 'Головна' })
+  <body>
+    <div class="relative flex min-h-screen flex-col overflow-hidden">
+      @@include('components/header.html', { })
+      <main>
+        <section class="relative pb-[77px] sm:pb-[120px] pt-[133px] max-lg:bg-[#F5F5F5] lg:pt-[243px] xl:pb-[178px]">
+          <img src="./img/hero-bg.webp" alt="Наша автошкола надає вам допомогу в отриманні водійського посвідчення." class="absolute left-0 top-0 h-full w-full object-cover" />
+          <div class="container">
+            <div class="relative z-10 max-w-[615px]">
+              <p data-aos="fade-up" class="mb-5 text-[22px] text-lg font-bold uppercase leading-loose text-[#289CD8] sm:text-3xl lg:mb-[30px]">Online</p>
+              <h1 data-aos="fade-up" data-aos-delay="100" class="mb-5 text-2xl font-black uppercase leading-normal text-white sm:text-4xl">Наша автошкола надає вам допомогу в отриманні водійського посвідчення.</h1>
+              <p data-aos="fade-up" data-aos-delay="150" class="mb-[27px] text-sm !leading-loose text-white sm:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae ornare est. Proin pretium, ante et efficitur placerat.</p>
+              <div data-aos="fade-up" data-aos-delay="200" class="flex space-x-[25px] max-sm:justify-center">
+                <a
+                  href="#"
+                  class="group flex h-[50px] w-[150px] items-center justify-center space-x-4 rounded-[5px] border border-transparent bg-primary text-lg font-medium text-white transition-colors hover:border-primary hover:bg-transparent hover:text-primary sm:h-[64px] sm:w-[156px]">
+                  <svg class="size-[20px] text-white transition-colors group-hover:text-primary">
+                    <use href="./sprites/sprite.svg#icon-tg"></use>
+                  </svg>
+                  <span>Telegram</span></a
+                >
+                <a
+                  href="#"
+                  class="flex h-[50px] w-[150px] items-center justify-center rounded-[5px] border border-primary bg-transparent text-lg font-medium text-white transition-colors hover:border-transparent hover:bg-primary hover:text-white sm:h-[64px] sm:w-[156px]"
+                  >Послуги</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="bg-[#F8F8FB] sm:bg-white pb-[60px]">
+          <div class="-translate-y-[15px] xl:-translate-y-[40px]">
+            <div data-aos="fade-up" class="mx-auto max-w-[1350px] px-4">
+              <div class="slider -m-4 w-full p-4 lg:overflow-hidden">
+                <div class="slider-wrapper flex w-full">
+                  <div class="slider-slide slide-shadow flex shrink-0 flex-col items-center rounded-[10px] px-[15px] py-[30px] text-center">
+                    <img src="./img/icon1.svg" alt="Напишіть нам" class="mb-[30px] block size-[91px]" />
+                    <p class="mb-5 text-center text-base font-bold leading-relaxed text-typo-dark sm:text-xl">Напишіть нам</p>
+                    <p class="text-center text-sm !leading-relaxed text-typo-light">Залиште свою заявку, і адміністратор надасть повну інформацію щодо процедури отримання водійських прав.</p>
+                  </div>
+                  <div class="slider-slide slide-shadow flex shrink-0 flex-col items-center rounded-[10px] px-[15px] py-[30px] text-center">
+                    <img src="./img/icon2.svg" alt="Напишіть нам" class="mb-[30px] block size-[91px]" />
+                    <p class="mb-5 text-center text-base font-bold leading-relaxed text-typo-dark sm:text-xl">Подача документів</p>
+                    <p class="text-center text-sm !leading-relaxed text-typo-light">Ви можете передати нам ваші документи будь-яким зручним для вас способом.</p>
+                  </div>
+                  <div class="slider-slide slide-shadow flex shrink-0 flex-col items-center rounded-[10px] px-[15px] py-[30px] text-center">
+                    <img src="./img/icon3.svg" alt="Напишіть нам" class="mb-[30px] block size-[91px]" />
+                    <p class="mb-5 text-center text-base font-bold leading-relaxed text-typo-dark sm:text-xl">Отримання прав</p>
+                    <p class="text-center text-sm !leading-relaxed text-typo-light">Через 10 днів після подачі заявки ви зможете отримати водійські права.</p>
+                  </div>
+                  <div class="slider-slide slide-shadow flex shrink-0 flex-col items-center rounded-[10px] px-[15px] py-[30px] text-center">
+                    <img src="./img/icon4.svg" alt="Напишіть нам" class="mb-[30px] block size-[91px]" />
+                    <p class="mb-5 text-center text-base font-bold leading-relaxed text-typo-dark sm:text-xl">Оплата</p>
+                    <p class="text-center text-sm !leading-relaxed text-typo-light">Після отримання прав у відділенні ви сплачуєте за посилку.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pagination mt-[30px] flex justify-center lg:hidden [&>.swiper-pagination-bullet-active]:bg-primary"></div>
+            </div>
+
+            <div class="mx-auto mb-[30px] mt-[60px] max-w-[650px] px-4 text-center sm:mb-[60px] lg:mt-[100px]">
+              <div data-aos="fade-up" class="mb-5 flex items-center justify-center space-x-2 sm:mb-[30px] sm:space-x-5">
+                <h2 class="text-center text-2xl font-bold leading-normal uppercase text-typo-dark sm:text-3xl">Допомогаємо отримати категорії:</h2>
+              </div>
+              <p data-aos="fade-up" data-aos-delay="100" class="text-sm !leading-relaxed text-typo-light sm:text-xl">Залиште свою заявку на нашому сайті прямо зараз, і ми розпочнемо процес отримання водійських прав вже сьогодні!</p>
+            </div>
+
+            <div class="px-3">
+              <div class="slide-shadow container grid grid-cols-[265px] gap-x-[11px] gap-y-[15px] pb-[39px] pt-[32px] max-sm:justify-center sm:grid-cols-2 lg:grid-cols-4">
+                <div data-aos="fade-up" class="flex flex-col items-center">
+                  <img src="./img/img1.webp" alt="Категорії A1 A" class="mb-[15px] block size-[164px] object-cover sm:mb-5" />
+                  <div class="flex flex-col items-center">
+                    <h3 class="mb-[15px] text-center text-lg font-bold leading-relaxed text-typo-dark sm:mb-5 sm:text-xl">Категорії A1 A</h3>
+                    <a href="#" class="text-primary underline text-center text-base font-medium  transition-colors hover:text-primary/70 sm:h-[50px] sm:w-[204px] sm:text-lg">Залишити заявку</a>
+                  </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="50" class="flex flex-col items-center">
+                  <img src="./img/img2.webp" alt="Категорії A1 A" class="mb-[15px] block size-[164px] object-cover sm:mb-5" />
+                  <div class="flex flex-col items-center">
+                    <h3 class="mb-[15px] text-center text-lg font-bold leading-relaxed text-typo-dark sm:mb-5 sm:text-xl">Категорія В B1</h3>
+                    <a href="#" class="text-primary underline text-center text-base font-medium  transition-colors hover:text-primary/70 sm:h-[50px] sm:w-[204px] sm:text-lg">Залишити заявку</a>
+                  </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100" class="flex flex-col items-center">
+                  <img src="./img/img3.webp" alt="Категорії A1 A" class="mb-[15px] block size-[164px] object-cover sm:mb-5" />
+                  <div class="flex flex-col items-center">
+                    <h3 class="mb-[15px] text-center text-lg font-bold leading-relaxed text-typo-dark sm:mb-5 sm:text-xl">Категорії С С1</h3>
+                    <a href="#" class="text-primary underline text-center text-base font-medium  transition-colors hover:text-primary/70 sm:h-[50px] sm:w-[204px] sm:text-lg">Залишити заявку</a>
+                  </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="150" class="flex flex-col items-center">
+                  <img src="./img/img4.webp" alt="Категорії A1 A" class="mb-[15px] block size-[164px] object-cover sm:mb-5" />
+                  <div class="flex flex-col items-center">
+                    <h3 class="mb-[15px] text-center text-lg font-bold leading-relaxed text-typo-dark sm:mb-5 sm:text-xl">Спец-техніка</h3>
+                    <a href="#" class="text-primary underline text-center text-base font-medium  transition-colors hover:text-primary/70 sm:h-[50px] sm:w-[204px] sm:text-lg">Залишити заявку</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="relative bg-[#F8F8FB]">
+          <img src="./img/bg.webp" alt="Наші переваги" class="w-full h-full absolute left-0 top-0 object-cover">
+          <div class="flex items-center max-xl:container">
+          <img src="./img/about.webp" alt="Наші переваги" class="hidden xl:block mr-[74px] translate-y-7 w-1/3" />
+
+            <div class="relative z-10 max-w-[726px] py-[60px]">
+              <h2 data-aos="fade-up" class="mb-6 text-2xl uppercase font-bold !leading-normal text-typo-dark max-sm:text-center sm:mb-[30px] sm:text-3xl">Наші переваги</h2>
+              <div data-aos="fade-up" data-aos-delay="50" class="mb-[35px] space-y-4">
+                <p class="text-base leading-relaxed text-typo-dark">Можливе дистанційне онлайн отримання водійських прав за короткий термін!</p>
+                <p class="text-base leading-relaxed text-typo-dark">
+                  Наша автошкола готова допомогти отримати будь-яку категорію водійських <br />
+                  прав: A1, A, B1, B, C1, C, D, C1E, BE, CE, D1E, DE.
+                </p>
+
+                <p class="text-base leading-relaxed text-typo-dark">Звертатися до нас можуть мешканці будь-яких областей. Ми допоможемо вам здійснити вашу мрію і стати водієм за короткий термін.</p>
+              </div>
+              <ul data-aos="fade-up" data-aos-delay="100" class="mb-10 grid grid-cols-1 gap-x-[0px] gap-y-[15px] sm:grid-cols-2">
+                <li class="flex items-center space-x-[15px]">
+                  <svg class='size-6'>
+                    <use href='./sprites/sprite.svg#icon-check'></use>
+                  </svg>
+                  <p class="text-lg font-semibold leading-snug text-typo-dark">Перше отримання на 2 роки</p>
+                </li>
+                <li class="flex items-center space-x-[15px]">
+                  <svg class='size-6'>
+                    <use href='./sprites/sprite.svg#icon-check'></use>
+                  </svg>
+                  <p class="text-lg font-semibold leading-snug text-typo-dark">Додати категорію</p>
+                </li>
+                <li class="flex items-center space-x-[15px]">
+                  <svg class='size-6'>
+                    <use href='./sprites/sprite.svg#icon-check'></use>
+                  </svg>
+                  <p class="text-lg font-semibold leading-snug text-typo-dark">Перевипуск на постійні права</p>
+                </li>
+                <li class="flex items-center space-x-[15px]">
+                  <svg class='size-6'>
+                    <use href='./sprites/sprite.svg#icon-check'></use>
+                  </svg>
+                  <p class="text-lg font-semibold leading-snug text-typo-dark">Швидке отримання прав!</p>
+                </li>
+                <li class="flex items-center space-x-[15px]">
+                  <svg class='size-6'>
+                    <use href='./sprites/sprite.svg#icon-check'></use>
+                  </svg>
+                  <p class="text-lg font-semibold leading-snug text-typo-dark">Відновити втрачені права</p>
+                </li>
+              </ul>
+              <a
+                href="#"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                class="flex h-[60px] w-[255px] items-center justify-center rounded-[5px] border border-primary bg-transparent text-center text-lg font-medium text-typo-dark transition-colors hover:border-primary hover:bg-primary hover:text-white"
+                >Отримати консультацію</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section id="contacts" class=" py-[60px] lg:py-[100px]">
+          <div class="container relative z-10">
+            <div class="mx-auto max-w-[805px] text-center">
+              <div data-aos="fade-up" class="mb-5 flex items-center justify-center space-x-2 sm:space-x-5 md:mb-[30px]">
+                <h2 class="text-center text-2xl font-bold uppercase leading-normal text-typo-dark sm:text-3xl">Замовте потрібні категорії</h2>
+              </div>
+              <p data-aos="fade-up" data-aos-delay="50" class="mb-[30px] text-sm !leading-relaxed text-typo-light sm:mb-10 sm:text-xl">
+                Наша автошкола пропонує Вам швидко отримати водійські права онлайн! <br />
+                Ми працюємо лише з оригінальними документами і не потребуємо передплати.
+              </p>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="50" class="flex space-x-[25px] justify-center">
+              <a
+                href="#"
+                class="group flex h-[50px] w-[150px] items-center justify-center space-x-4 rounded-[5px] border border-transparent bg-primary text-lg font-medium text-white transition-colors hover:border-primary hover:bg-transparent hover:text-primary sm:h-[64px] sm:w-[156px]">
+             Замовити</a
+              >
+              <a
+                href="#"
+                class="flex h-[50px] w-[150px] items-center justify-center rounded-[5px] border border-primary bg-transparent text-lg font-medium text-typo-dark transition-colors hover:border-transparent hover:bg-primary hover:text-white sm:h-[64px] sm:w-[156px]"
+                >Відгуки</a
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+      @@include('components/footer.html', { })
+    </div>
+    <script type="module" crossorigin src="./js/app.min.js"></script>
+  </body>
+</html>

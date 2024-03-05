@@ -1,0 +1,20 @@
+<svg width="88.000000" height="88.000000" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<mask id="mask15_422" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="88.000000" height="88.000000">
+		<path id="path153" d="M0 0L88 0L88 88L0 88L0 0Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</mask>
+	<g mask="url(#mask15_422)">
+		<path id="path159" d="M10.7383 52.1818L1.33936 26.0545C1.17822 25.5992 1.41797 25.0951 1.87305 24.9287C6.84619 23.1423 12.0352 21.3948 17.2734 19.6329M67.1206 70.6978L37.0938 81.4904L23.916 86.2283C23.4609 86.3948 22.9565 86.1549 22.79 85.6998L12.7158 57.6783" stroke="#289CD8" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round"/>
+		<path id="path163" d="M73.0586 69.6798L41.8765 75.0248L28.0718 77.3937C27.5972 77.4719 27.1372 77.149 27.0537 76.6741L21.958 46.9397L16.3433 14.2047C16.2598 13.7252 16.583 13.2699 17.0576 13.1867L32.791 10.4898" stroke="#289CD8" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path167" d="M32.791 37.2876L32.791 2.63394C32.791 2.12982 33.2021 1.71872 33.7065 1.71872L74.6348 1.71872L75.3203 1.71872C75.5991 1.71872 75.6772 1.8313 76.1523 2.28162L86.1924 11.8554C86.5986 12.2519 86.7109 12.2959 86.7109 12.5602L86.7109 13.128L86.7109 53.9732L86.7109 68.7596C86.7109 69.2637 86.2998 69.6798 85.7959 69.6798L48.3184 69.6798L33.7065 69.6798C33.2021 69.6798 32.791 69.2637 32.791 68.7596L32.791 43.2686" stroke="#289CD8" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path171" d="M74.6348 1.71878L74.6543 10.7982C74.6543 12.8294 76.5146 12.7021 77.4102 12.7021L86.7109 12.7021" stroke="#289CD8" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path175" d="M78.438 20.4454L41.5825 20.4454" stroke="#289CD8" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path179" d="M78.438 29.6031L41.5825 29.6031" stroke="#289CD8" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path183" d="M78.438 38.7609L41.5825 38.7609" stroke="#289CD8" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path187" d="M78.438 47.9186L41.5825 47.9186" stroke="#289CD8" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path191" d="M78.438 57.0764L41.5825 57.0764" stroke="#289CD8" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>
